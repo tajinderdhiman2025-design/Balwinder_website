@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balwinder Singh and Company</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #1a1a1a; color: white; padding: 20px 40px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    .hero { background: #eee; padding: 60px 40px; text-align: center; }
+    .section { padding: 40px; }
+    .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+    .card { flex: 1 1 300px; background: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
+    footer { text-align: center; font-size: 14px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; }
+    form button { background: #1a1a1a; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Balwinder Singh and Company</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section class="hero">
+    <h2>Expert Solutions in Architecture Products</h2>
+    <p>Quality materials. Professional service. Trusted name.</p>
+  </section>  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Balwinder Singh and Company specializes in premium architectural products. With years of experience and a commitment to excellence, we deliver top-quality solutions to our clients.</p>
+  </section>  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Product Design</h3>
+        <p>Innovative and modern design tailored to your project.</p>
+      </div>
+      <div class="card">
+        <h3>Material Supply</h3>
+        <p>We provide high-quality architectural products for all types of constructions.</p>
+      </div>
+      <div class="card">
+        <h3>Consulting</h3>
+        <p>Professional guidance on architecture material planning and usage.</p>
+      </div>
+    </div>
+  </section>  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <div class="card"><img src="https://via.placeholder.com/300" alt="Project 1" style="width:100%"><p>Project 1</p></div>
+      <div class="card"><img src="https://via.placeholder.com/300" alt="Project 2" style="width:100%"><p>Project 2</p></div>
+      <div class="card"><img src="https://via.placeholder.com/300" alt="Project 3" style="width:100%"><p>Project 3</p></div>
+    </div>
+  </section>  <section id="blog" class="section">
+    <h2>Blog</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Top Trends in Modern Architecture</h3>
+        <p>Discover the latest innovations and trends in architecture design and materials.</p>
+      </div>
+      <div class="card">
+        <h3>Choosing the Right Material</h3>
+        <p>How to select the best architectural materials for durability and aesthetics.</p>
+      </div>
+    </div>
+  </section>  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: 9815516907</p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>  <footer>
+    <p>&copy; 2025 Balwinder Singh and Company | All rights reserved.</p>
+  </footer>
+</body>
+</html>
